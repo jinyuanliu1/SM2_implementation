@@ -102,7 +102,7 @@ if __name__=='__main__':
     prikey, pubkey = generate_key()
     print('公钥：',pubkey)
     message = "hello,world!"
-    ID='zrz'
+    ID='LJY'
     Z_A=precompute(ID,A,B,G_X,G_Y,pubkey[0],pubkey[1])
     signature = sign(prikey, message,str(Z_A))
     print("签名: ",signature)
