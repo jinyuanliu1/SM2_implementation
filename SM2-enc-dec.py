@@ -197,7 +197,7 @@ def decrypt(c1,c2,c3):
 
 
 Pa=mul_add(Gx,Gy,da)
-m="encryption standard"
+m="Liujinyuan"
 c1,c2,c3=encrypt(m)
 m2=decrypt(c1,c2,c3)
 m2=binascii.a2b_hex(m2)
