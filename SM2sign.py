@@ -172,7 +172,7 @@ def Verify(r,s,Za,m,Pa):
 
 Pax,Pay=mul_add(Gx,Gy,da)
 Pa=(Pax,Pay)
-m="message digest"
+m="Liu"
 m=hex(int(binascii.b2a_hex(m.encode()).decode(),16)).upper()[2:]
 IDa="ALICE123@YAHOO.COM" 
 ida=hex(int(binascii.b2a_hex(IDa.encode()).decode(),16)).upper()[2:]
